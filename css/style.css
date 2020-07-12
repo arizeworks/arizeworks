@@ -80,7 +80,7 @@ header, section {
 
 header {
     padding: 3.0em 1.0em 0.0em 1.0em;
-    background: #E5E5E5;
+    background: #F4F4F4;
 }
 
 header div {
@@ -89,7 +89,7 @@ header div {
 
 footer {
     padding: 1.0em 1.0em 4.0em 1.0em;
-    background: #E5E5E5;
+    background: #F4F4F4;
 }
 
 .flex-container {
@@ -122,9 +122,9 @@ footer {
     width: 960px;
     padding: 0 2.0em;
     margin-top: 0px;
-    margin-right: 100px;
+    margin-right: auto;
     margin-bottom: 0px;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 .fr {
