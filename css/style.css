@@ -1,80 +1,106 @@
-*{margin:0; padding:0; font-size:100%; font-weight:normal; vertical-align:baseline; background:transparent; border:none;}
+/*
+@import url('https://fonts.fontself.com/oae0ooj/cgx-sans-bold.css');
+@import url('https://fonts.fontself.com/ojZW04a/cgx-prototype-r-regular.css');
+*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+    border: none;
+}
 
 /* - - - - - */
 
-body{
+body {
     background: white;
     color: black;
     text-align: left;
     font-family: 'cgx-sans-bold';
-/*    font-family: 'Source Code Pro', "M PLUS Rounded 1c", monospace;*/
     font-size: 15px;
     line-height: 1.5em;
 }
 
 /* - - - - - */
 
-h2, h3{
+h2,
+h3 {
     font-weight: 600;
     margin-bottom: 0.5em;
 }
 
-p, li, th, td, a{
+
+p {
+    font-family: 'cgx-sans-bold';
+}
+
+p,
+li,
+th,
+td,
+a {
     font-weight: 300;
 }
 
 
-h1{
-/*    font-family: 'Noto Sans JP', sans-serif;*/
+h1 {
     font-family: 'cgx-prototype-r-regular';
-    font-size: 400%;
+    font-size: 150%;
     font-weight: 600;
 }
 
-h2{
+h2 {
     font-size: 130%;
     padding-bottom: 0.2em;
     border-bottom: 1px gray solid;
 }
 
-p, ul, tr{
+p,
+ul,
+tr {
     font-size: 100%;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 960px;
 }
 
-th{
+th {
     font-weight: 600;
     padding: 0 1.0em 0 0;
     border-bottom: 1px solid gray;
 }
 
-td{
+td {
     font-size: 90%;
     padding: 0.2em 1.0em 0.2em 0;
     border-bottom: 1px dashed gray;
 }
 
-ul{
+ul {
     padding-left: 1.4em;
 }
 
 a:link {
     color: steelblue;
 }
+
 a:visited {
     color: slategray;
 }
+
 a:hover {
     color: lightseagreen;
 }
 
 /* - - - - - */
 
-header, section {
+header,
+section {
     margin-bottom: 3.0em;
 }
 
@@ -97,8 +123,13 @@ footer {
     align-items: baseline;
 }
 
-.flex-1 { flex: 1; }
-.flex-2 { flex: 2; }
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
 
 /* - - - - - */
 
@@ -106,25 +137,22 @@ footer {
     font-size: 90%;
 }
 
-.asciiart{
+.asciiart {
     color: white;
     font-size: 60%;
     line-height: 1.2em;
     letter-spacing: 0.0em;
 
-    position:relative;
+    position: relative;
     top: -1.5em;
 }
 
 /* - - - - - */
 
-#container{
-    width: 960px;
+#container {
+    width: 960;
     padding: 0 2.0em;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .fr {
